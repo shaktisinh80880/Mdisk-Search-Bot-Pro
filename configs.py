@@ -30,9 +30,9 @@ Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ Cʟɪᴄᴋ Oɴ Hᴇʟᴘ ✅''')
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ,
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅''')
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", None)
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", movieschannle123)
     DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://shaktisinh2025:shaktisinh@hunter.gnooxmh.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", ""))
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001587395496"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 10))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
     UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "")
