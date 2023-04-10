@@ -7,16 +7,16 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", 12345))
-    API_HASH = os.getenv("API_HASH", "")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+    API_ID = int(os.getenv("API_ID", 21985387))
+    API_HASH = os.getenv("API_HASH", "d667b7379a09696b3aafc117b47b2b20")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5971569334:AAHpMaAQirVTcFgIObedb3HyTnFCHMcESy8")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "MdiskSearchRobot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", -100))
-    BOT_USERNAME = os.getenv("BOT_USERNAME")
-    BOT_OWNER = int(os.getenv("BOT_OWNER"))
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOKIBu3_ytK0kBV8s8FRgqLhdzpN5v_FNrIh9KtaaqCua34Xquvnzw2_H2twpJ-hEQ5U3kcT6AfutBq8-avcJxsZlI4BlfNVRPadytks83HvP13RTgkOQ7LoPHOE8VHF_g4N4zEFnT1rfTk-h-Z-oph78dICi7aPiyIU6JCA8A1tDHHL1kxfudrEwrU84DdN_-GIKtgoxP0qnbIDP0DrOAGWubhdzpTZS48pVh3V1WH0s6H6wD6Btu4s7NILdlI9pl1qqgnR8ggWBQ-20jfYwUQ4ZwKC51IMjKb-85a4SbhnESRNhj8bJtarV7g6f8QAgA_sgSflp_cODj_bIiblrEAGnVIc=")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", -1001580375201))
+    BOT_USERNAME = os.getenv("mdisk_moviesearch_bot")
+    BOT_OWNER = int(os.getenv("shaktisinh7"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL")
+    BACKUP_CHANNEL = os.getenv("mdiskmoviebotc")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", '''Hᴇʏ Bᴜᴅᴅʏ! 😃
 
@@ -31,9 +31,9 @@ Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ Cʟɪᴄᴋ Oɴ Hᴇʟᴘ ✅''')
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ,
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅''')
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", None)
-    DATABASE_URL = os.getenv("DATABASE_URL", "")
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://shaktisinh2025:shaktisinh@hunter.gnooxmh.mongodb.net/?retryWrites=true&w=majority")
     LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", ""))
-    RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 5))
+    RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 10))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
     UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "")
     FORCE_SUB = os.getenv("FORCE_SUB", "False")
