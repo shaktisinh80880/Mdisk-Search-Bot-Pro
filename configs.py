@@ -14,7 +14,7 @@ class Config(object):
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOKIBu3_ytK0kBV8s8FRgqLhdzpN5v_FNrIh9KtaaqCua34Xquvnzw2_H2twpJ-hEQ5U3kcT6AfutBq8-avcJxsZlI4BlfNVRPadytks83HvP13RTgkOQ7LoPHOE8VHF_g4N4zEFnT1rfTk-h-Z-oph78dICi7aPiyIU6JCA8A1tDHHL1kxfudrEwrU84DdN_-GIKtgoxP0qnbIDP0DrOAGWubhdzpTZS48pVh3V1WH0s6H6wD6Btu4s7NILdlI9pl1qqgnR8ggWBQ-20jfYwUQ4ZwKC51IMjKb-85a4SbhnESRNhj8bJtarV7g6f8QAgA_sgSflp_cODj_bIiblrEAGnVIc=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", -1001580375201))
     BOT_USERNAME = os.getenv("mdisk_moviesearch_bot")
-    BOT_OWNER = int(os.getenv(593917089))
+    BOT_OWNER = int(os.getenv("shaktisinh7"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME")
     BACKUP_CHANNEL = os.getenv("mdiskmoviebotc")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
